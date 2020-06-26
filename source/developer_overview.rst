@@ -337,8 +337,8 @@ For more information on what exactly is in the ``rosidl`` |API| (static and gene
 The ``rcutils`` Repository
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-ROS 2 C Utilities is a C API composed of macros, functions, and data structures used throughout the ROS 2 codebase.
-The ROS C Utilities (``rcutils`` |API|) contains macros, functions, and data structures for error handling, commandline argument parsing, and logging that are not specific to the client or middleware layers and can be shared by both.
+ROS 2 C Utilities (``rcutils``) is a C |API| composed of macros, functions, and data structures used throughout the ROS 2 codebase.
+These are mainly used for error handling, commandline argument parsing, and logging which are not specific to the client or middleware layers and can be shared by both.
 
 The ``rcutils`` |API| and implementation are located in the `ros2/rcutils <https://github.com/ros2/rcutils>`_ repository on |GitHub|_ which contains the interface as C headers.
 
